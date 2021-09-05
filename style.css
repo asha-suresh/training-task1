@@ -1,0 +1,39 @@
+.maincontainer{
+
+    
+    width: 80%;
+    margin: auto auto;
+}
+
+
+body{
+    background-image: url(./home.svg);
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.search{
+    height: 20px;
+    width: 150px;
+    border-radius: 25px;
+}
+    
+
+
+.img{
+    width: 40px;
+    height: 40px;
+
+}
+.home{
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    margin-left: auto;
+
+}
