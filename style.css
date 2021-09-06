@@ -111,3 +111,18 @@ h1{
         margin-right: auto;
         width: 80%;
     }
+    button{
+        background-color: #7FB80D;
+        color: white;
+        border-radius: 20px;
+         margin-left:auto;
+         margin-right: auto;
+    }
+    .footer{
+        background-color: #3D4F68;
+        color: white;
+        width: 80%;
+        border: #707070 1px;
+
+    }
+
