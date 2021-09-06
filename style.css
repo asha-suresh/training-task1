@@ -74,10 +74,12 @@ h1{
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 30px;
     }
     .card{
 
         width: 20%;
+        margin-bottom: 20px;
         
     }
     .cardttitle{
@@ -91,40 +93,44 @@ h1{
         font-weight: bold;
         align-items: center;
         justify-content: center; 
-        display: flex;    
+        display: flex; 
+        margin-top:20px;   
     }
     .cardbody{
         background-color: antiquewhite;
-        width: 80%;
+        width: 95%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20px;
     }
 
     .cardimage{
         border-radius: 20px;
-        height: 150px;
         border: solid grey 1px;
 
     }
     .im{
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 95%;
+        margin-top: 10px;
+        height: 150px;
     }
-    button{
+    .button{
         background-color: #7FB80D;
         color: white;
         border-radius: 20px;
          margin-left:auto;
          margin-right: auto;
+         width: fit-content;
+         padding-left: 10px;
+         padding-right: 10px;
+         margin-bottom: 20px;
     }
     .footer{
         background-color: #3D4F68;
         color: white;
-        width: 80%;
-        border: #707070 1px;
-        margin-left: auto;
-        margin-top: auto;
-
+        width: 100%;
+       height:100px;
     }
 
