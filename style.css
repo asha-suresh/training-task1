@@ -1,23 +1,23 @@
 .maincontainer{
-
-    
     width: 80%;
-    margin: auto auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 body{
-    background-image: url(./home.svg);
+    background-image: url(./image\ \(2\).png);
     background-repeat: no-repeat;
 }
 
-.header{
+header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .search{
-    height: 20px;
-    width: 150px;
+    height: 35px;
+    width: calc(100% - 100px);
     border-radius: 25px;
 }
     
@@ -26,14 +26,88 @@ body{
 .img{
     width: 40px;
     height: 40px;
+    
 
 }
 .home{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     background-color: whitesmoke;
     border-radius: 50%;
     display: flex;
-    margin-left: auto;
-
+    align-items: center;
+    justify-content: center;
 }
+main{
+border-radius: 25px;
+width: 100%;
+background-color: white;
+}
+h1{
+    
+     font-weight: bold;
+     color: white;
+     margin: auto;
+     margin-top: 10px;
+}
+.pgm{
+
+    background-color: orangered;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+    marquee{
+        background-color:#F3F5C5;
+        border: solid black 1px;
+        margin-top: 20px;
+        color: orangered;
+    }
+    .cardcontainer{
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+
+        width: 20%;
+        
+    }
+    .cardttitle{
+       
+        background: #3D4F68 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        border-radius: 42px 154px;
+        width: 100%;
+        height: 30px;
+        color:white; 
+        font-weight: bold;
+        align-items: center;
+        justify-content: center; 
+        display: flex;    
+    }
+    .cardbody{
+        background-color: antiquewhite;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardimage{
+        border-radius: 20px;
+        height: 150px;
+        border: solid grey 1px;
+
+    }
+    .im{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
